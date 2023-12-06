@@ -17,6 +17,7 @@ def input_error(func):
 
     return inner
 
+
 @input_error
 def add_contact(args, contacts):
     name, phone = args
